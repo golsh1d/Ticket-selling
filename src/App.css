@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e2e2e ;
+}
+
+.Ticket-selling-wrapper {
+  width: 400px;
+  height: min-content;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Ticket_selling-title {
+  font-size: 18px;
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Ticket-selling-input-wrapper , 
+.Ticket-selling-select-wrapper {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.Ticket-selling-input-wrapper input ,
+.Ticket-selling-select-wrapper select {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'poppins';
+}
+
+.Ticket-selling-select-wrapper select{
+  padding: 0px;
+  cursor: pointer;
+}
+
+.Ticket-selling-btn-wrapper {
+  width: 100%;
+  height: 35px;
+}
+
+.Ticket-selling-btn-wrapper button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'poppins';
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0px;
+  transition: all 0.3s ease;
+}
+
+.Ticket-selling-btn-wrapper button:hover {
+  box-shadow: 0px 0px 5px 0px rgb(255, 255, 255);
+}
